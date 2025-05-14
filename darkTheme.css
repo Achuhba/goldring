@@ -1,0 +1,89 @@
+.dark_theme_btn{
+	position: absolute;
+	left: 95%;
+    top: 1%;
+	height: 60px;
+    width: 60px;
+	border-radius: 15px;
+	cursor: pointer;
+	background-color: #777879;
+	color: white;
+    border: none;
+    transition: background-color .4s;
+}
+.dark_theme_btn:hover{
+    background-color: #8d8e8f;
+}
+.darkThemeIcon{
+    opacity: 0;
+    transition: opacity .4s;
+    position: absolute;
+    width: 40px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.darkThemeIcon_night{
+    opacity: 1;
+    
+}
+.darkThemeIcon_light{
+    opacity: 0;
+}
+body{
+    transition: background-color .4s
+}
+nav{
+    transition: background-color .4s
+}
+body.darkTheme{
+    background-color: #1f1f1f;
+    
+}
+body.darkTheme .dark_theme_btn{
+    background-color: rgb(173, 173, 2);
+}
+nav.darkTheme{
+    background-color: #1f1f1f;
+    
+}
+body.darkTheme .darkThemeIcon_night{
+    opacity: 0;
+}
+body.darkTheme .darkThemeIcon_light{
+    opacity: 1;
+}
+body.darkTheme .adapt{
+    background-color: #181b1f;    
+}
+
+body.darkTheme .more-button{
+    background-color: black;
+}
+body.darkTheme .image{
+    filter: brightness(40%);
+}
+body.darkTheme .imageSlider{
+    filter: brightness(40%);
+}
+body.darkTheme .image1{
+    filter: brightness(40%);
+}
+body.darkTheme .navbar{
+    background-color: #1f1f1f;
+}
+body.darkTheme .description{
+    background-color: #181b1f;
+}
+
+body.darkTheme select, input{
+    background-color: #222529
+}
+body.darkTheme button{
+   background-color: #222529 
+}
+body.darkTheme #speed{
+    background-color: #222529;
+}
+body.darkTheme #map{
+    filter: brightness(40%);
+}
