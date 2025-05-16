@@ -87,3 +87,15 @@ body.darkTheme #speed{
 body.darkTheme #map{
     filter: brightness(40%);
 }
+.image1{
+    display: block;
+}
+.image12{
+    display: none;
+}
+body.darkTheme .image12{
+    display: block;
+}
+body.darkTheme .image1{
+    display: none;
+}

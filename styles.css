@@ -102,12 +102,15 @@ nav a:hover {
 	padding: 15px;
 }
 
-.image1 {
+.image1{
 	height: auto;
 	width: 900px;
-	
 }
 
+.image12{
+	height: auto;
+	width: 900px;
+}
 .image {
 	max-width: 450px;
 	height: auto;
@@ -148,7 +151,12 @@ nav a:hover {
 		width: 450px;
 		height: 400px;
 	}
+	.image12 {
+		width: 450px;
+		height: 400px;
+	}
 }
+
 .blockSlider {
 	display: flex;
 
