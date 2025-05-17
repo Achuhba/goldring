@@ -60,13 +60,13 @@ body.darkTheme .more-button{
     background-color: black;
 }
 body.darkTheme .image{
-    filter: brightness(40%);
+    filter: brightness(50%);
 }
 body.darkTheme .imageSlider{
-    filter: brightness(40%);
+    filter: brightness(50%);
 }
 body.darkTheme .image1{
-    filter: brightness(40%);
+    filter: brightness(50%);
 }
 body.darkTheme .navbar{
     background-color: #1f1f1f;
@@ -85,7 +85,7 @@ body.darkTheme #speed{
     background-color: #222529;
 }
 body.darkTheme #map{
-    filter: brightness(40%);
+    filter: brightness(50%);
 }
 .image1{
     display: block;
